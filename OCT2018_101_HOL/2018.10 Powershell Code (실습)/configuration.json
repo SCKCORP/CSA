@@ -1,0 +1,44 @@
+﻿{
+    "ServiceName" : "win32calc",
+    "SqlDB" : {
+        "Stored" : true,
+        "ConnectionString" : "xxxxxxxxxxxx"
+    },
+    "InfluxDB" : {
+        "Stored" : true,
+        "User" : "user",
+        "Passwd" : "passwd",
+        "IP" : "xxx.xxx.xxx.xxx"
+    },
+    "EnableWebHook" : true,
+    "CheckInterval" : 5,
+    "CpuUtilLimit"  : 40,
+    
+    "oscred":
+    [
+      {
+          "username" : "azureadmin",
+          "userpw" : "Password@123"
+      },
+      {
+          "monusername" : "azureadmin",
+          "monuserpw" : "Password@123"
+      }
+
+    ],
+
+    "spn":
+     {
+         "tenantID" : "ef8747f0-fe3a-4572-b681-860b7305dc97",
+         "appid" : "b7a77113-58ce-4b1b-9cd9-cbb77a4010e2"
+     },
+     
+     "blob":
+     {
+        "storageAccountName" : "**********",
+        "storageAccountKey" : "**********************************",
+        "linuxuri" : "https://**********.blob.core.windows.net/scripts/InitialScriptLinux.sh",
+        "winuri" : "https://**********.blob.core.windows.net/scripts/InitialScriptWindows.ps1"
+
+     }
+}

@@ -1,0 +1,3 @@
+vmname,resourcegroup,location,vmsize,nwresourceGroup,vnetName,subnetName,pipName,nicname,nsgname,osdiskname,disksize,os,publisher,offer,sku,AvailabilitySetName
+Linux-01,LinuxRG-partner,Korea Central,Standard_DS2_v2,NetworkRG-partner,Demo-Vnet,Linux-Subnet,Linux-01-pip,Linux-01-nic,LinuxNSG,Linux-01-disk,127,linux,OpenLogic,CentOS,7.3,LinuxAVS
+Windows-01,WindowsRG-partner,Korea Central,Standard_DS2_v2,NetworkRG-partner,Demo-Vnet,Windows-Subnet,Windows-01-pip,Windows-01-nic,WindowsNSG,Windows-01-disk,127,windows,MicrosoftWindowsServer,WindowsServer,2016-Datacenter,WindowsAVS

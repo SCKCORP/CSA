@@ -1,0 +1,3 @@
+resourceGroup,location,subnetName,subnetAddress,vnetName,vnetAddress,nsgRuleName,nsgName,port,priority
+NetworkRG-partner,Korea Central,Linux-Subnet,10.10.1.0/24,Demo-Vnet,10.10.0.0/16,LinuxSSH,LinuxNSG,22,1010
+NetworkRG-partner,Korea Central,Windows-Subnet,10.10.2.0/24,Demo-Vnet,10.10.0.0/16,WindowsRDP,WindowsNSG,3389,1030
